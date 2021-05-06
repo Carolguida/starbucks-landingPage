@@ -1,0 +1,101 @@
+
+*
+{    
+   font-family: 'Poppins', serif;
+}
+
+.bg-1{
+    background-image: linear-gradient(
+        to bottom,
+        #fff,
+        #fff,
+        #fff,
+        #017143
+      );
+    min-height: 100vh;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+
+.nav-link .active a:hover{
+    color: #017143;
+}
+
+ .textBox{
+    position: relative;
+    max-width: 600px;
+} 
+
+.textBox h2{
+    color: #333;
+     font-size: 4em; 
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+.textBox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.textBox p{
+    color: #333;
+
+}
+
+.textBox a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+}
+
+ .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.imgBox img{
+    max-width: 300px;
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li img{
+    max-width:50px ;
+}
+
+.thumb li:hover{
+    transform: translateY(-15px);
+} 
+
+ @media (max-width: 574px){
+    .textBox h2 span {        
+        font-size: 1em;       
+    }
+
+    .textBox h2 {        
+        font-size: 3em;        
+    }
+
+    .imgBox img {
+        max-width: 200px;
+        margin: 0 25px;
+    }   
+
+    
+} 
